@@ -40,25 +40,25 @@
 
  1. [Diziler](js/diziler.html) => Js'te diziler ve üzerinde bir takım işlemler.
  2. [DOM-TAG-p](js/DOM-TAG-p.html) => Js ile butona tıklandığında tüm p etiketine sahip olanlara css işlemi yaptırtıyoruz.
- 3. [DOM-CLASS-satir](DOM-CLASS-satir.html) => Js ile butona tıklandığında tüm "satir" isimli classa sahip olanlara css işlemi yaptırtıyoruz.
+ 3. [DOM-CLASS-satir](js/DOM-CLASS-satir.html) => Js ile butona tıklandığında tüm "satir" isimli classa sahip olanlara css işlemi yaptırtıyoruz.
  4. [DOM-klavye-olay-yöneticileri](js/DOM-klavye-olay-yoneticileri.html) => Js ile metin kutusuna yazılan her karaktere rastgele bir font-size ve rastgele bir color verir. Boşluk tuşuna basınca bütün yazılan karakterleri siler.
- 5. [DOM-mouse-olay-yöneticileri](js%5CDOM-mouse-olay-yoneticileri.html) => Js ile mousenin hareketlerine bağlı olarak paragraf metninin içeriğini değiştiriyor.
- 6. [DOM-obje-olay-yöneticileri](js%5CDOM-obje-olay-yoneticileri.html) => Js ile resim veya video yüklenirken hata oluşmussa vericek uyarıyı, mouseyi sayfadan dışarı çıkardıysak vericek uyarıyı ve butonlara tıklandığında hash değiştirerek aynı sayfa içerisinde içerikleri değiştiren kodlar..
- 7. [DOM-olay-yöneticileri](js%5CDOM-olay-yoneticileri.html) => Mouse hareketleri ile fonksiyonları çalıştırmak...
- 8. [Elementlerin stilini okumak ve düzenlemek](js%5Celementlerin_stilini_okumak_ve_duzenlemek.html) => Js ile elementlerin stilini değişkene kaydedip bunu başka bir değişkenin stili olarak tanımlıyoruz.
+ 5. [DOM-mouse-olay-yöneticileri](js/DOM-mouse-olay-yoneticileri.html) => Js ile mousenin hareketlerine bağlı olarak paragraf metninin içeriğini değiştiriyor.
+ 6. [DOM-obje-olay-yöneticileri](js/DOM-obje-olay-yoneticileri.html) => Js ile resim veya video yüklenirken hata oluşmussa vericek uyarıyı, mouseyi sayfadan dışarı çıkardıysak vericek uyarıyı ve butonlara tıklandığında hash değiştirerek aynı sayfa içerisinde içerikleri değiştiren kodlar..
+ 7. [DOM-olay-yöneticileri](js/DOM-olay-yoneticileri.html) => Mouse hareketleri ile fonksiyonları çalıştırmak...
+ 8. [Elementlerin stilini okumak ve düzenlemek](js/elementlerin_stilini_okumak_ve_duzenlemek.html) => Js ile elementlerin stilini değişkene kaydedip bunu başka bir değişkenin stili olarak tanımlıyoruz.
  9. [Eşleştirme Oyunu](js/eslestirme-oyunu) => Js eventler ile hazırlanmış bir oyun...
  10. [For Döngüsü](js/fordongusu.html)  => For döngüsüyle 1-100 arası sayıları tablo halinde gösterdim...
  11. [For in Döngüsü](js/for_in.html) => For in ile bir obje değişkeninin içerisindekileri tek tek yazdırdık.
  12. [Geolocation apisi](js/geolocation) => Bu api ile konuma izin verilirse haritadaki konumu bize bir resim halinde geri döndürecektir...
  13. [Hesap Makinesi](js/hesapmakinesi.html) => Bu projede 4 işlem yapabilen bir hesap makinesi tasarlanmıştır.
  14. [İf-else if-else Kullanımı](js/if-else-elseif.html) =>Burada if , else if, else kullanımı gösterilmiştir.
- 15. [Matematik fonksiyonları](js%5Cmatematik_islemleri.html) => Burada js 'deki bazı matematik fonksiyonları bahsedilmiştir.
+ 15. [Matematik fonksiyonları](js/matematik_islemleri.html) => Burada js 'deki bazı matematik fonksiyonları bahsedilmiştir.
  16. [New anahtar kelimesi ile object üretmek](js/newanahtarkelimesiileobjecturetmek.html)=> İsmindende anlaşılacağı üzere new anahtar kelimesi ile object üretiyoruz.
  17. [Obje-Metotlar](js/obje-metotlar.html) => Burada metot kullanımı yer alıyor..
- 18. [Parametreli Fonksiyonlar](js%5Cparametreli_fonksiyonlar.html) => Burada parametre alarak kullanılan fonksiyonlara değindim..
- 19. [Sınıflarda Prototip Genişletmesi](js%5Csiniflarda-prototip-genisletmesi.html) => Mesela yaş değerini gireceğiz ama herkes hızlı koşamaz bu yüzden bir prototype ile yaşı şu-şu arasındakiler hızlı diğerleri yavaş vb diyebiliyoruz.
+ 18. [Parametreli Fonksiyonlar](js/parametreli_fonksiyonlar.html) => Burada parametre alarak kullanılan fonksiyonlara değindim..
+ 19. [Sınıflarda Prototip Genişletmesi](js/siniflarda-prototip-genisletmesi.html) => Mesela yaş değerini gireceğiz ama herkes hızlı koşamaz bu yüzden bir prototype ile yaşı şu-şu arasındakiler hızlı diğerleri yavaş vb diyebiliyoruz.
  20. [Switch-case](js/switch-case.html) => Kullanımından bahsettik..
  21. [Tekrarlayan fonksiyon](js/tekrarlayan-fonksiyon.html) => Burada settimeout komutu ile 1 saniye değer vererek saati bize hh:mm:ss şeklinde bize 1 saniye aralıklarla tekrar fonksiyonu çalıştırarak getirmesini sağladık..
  22. [While Döngüsü](js/while.html) - [Do-While Döngüsü](js/do-while.html) => Burada range inputu ile bir uygulama üzerinden gittik.. While koşul sağlandıkça çalışır. Dowhile ise bir kere kesin çalışır sonra koşula bakar.
- 23. [Yeni bir obje yapılandırmak](js%5CYenibirobjeyapilandirmak.html) => Obje yapılandırmayı gösterdim...
+ 23. [Yeni bir obje yapılandırmak](js/Yenibirobjeyapilandirmak.html) => Obje yapılandırmayı gösterdim...
  
