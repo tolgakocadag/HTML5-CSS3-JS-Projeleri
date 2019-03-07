@@ -1,0 +1,6 @@
+div{
+    position: static; /*olduğu gibi hiç bişe yazasan bu olur.*/
+    position: fixed; /*konumu hiç değişmez sabit kalır.*/
+    position: relative; /*görecelidir.ekrana  göre otomatik konumlanır*/
+    position: absolute; /*tarayıcının sol üst köşesine göre hizalanır.*/
+}

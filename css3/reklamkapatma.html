@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function kapat(){
+            document.getElementById("kutu").style.display="none";
+        }
+    </script>
+    <style type="text/css">
+    #kutu{
+        padding: 10px;
+        background-color: white;
+        border: 1px solid gray;
+    }
+    #kapat{
+        float: right;
+    }
+    </style>
+</head>
+<body>
+    <div id="kutu">
+        <input type="button" id="kapat" value="X" onclick="kapat()"/>
+        <p>Kapat butonuna tıklarsanız kapanacaktır.</p>
+    </div>
+    <p><mark>display:block ise yeni bir satıra alır ve bir blok olarak gösterir.<br>display:inline ise satır içinde bloklama yapar.<br>
+    display ile visibility arasındaki temel fark display:none komple kaldırır. visibiliy:hidden sadece görünmez yapar ama sayfada yeri kalır.</mark></p>
+</body>
+</html>

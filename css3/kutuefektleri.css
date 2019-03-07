@@ -1,0 +1,33 @@
+.kutu1{
+    border:4px solid orange;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: blue 5px 5px 2px;
+}
+.kutu2{
+    
+    border: 5px groove rgb(red, rgb(83, 16, 207), blue);
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 10px 10px 5px 1px rgba(255, 0, 0, .5);
+}
+#gradyan{
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(1,#00FFFF),color-stop(0,#FFFF00));
+    text-align:center;
+    font-size:50px;
+    height: auto;
+}
+.kutu3{
+    font-family: 'Indie Flower', cursive;
+}
+/*border çizgi stilleri 
+dotted:noktalı
+dashed:kesikli çizgi
+solid:katı çizgi
+double :çift çizgi
+groove: 3d katı çizgi
+ridge: 3d etkisi veirlmiş çıkıntılı katı çizgi
+inset: içe 3d etkisi veirlmiş katı çizgi
+outset : dışa 3d etkisi verilmiş katı çizgi
+*/

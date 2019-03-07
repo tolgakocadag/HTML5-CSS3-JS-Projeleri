@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        #flex-kutu{
+            width: 600px;
+            height: auto;
+            display: flex;
+            border: 2px solid silver;
+            flex-direction: column;/*row ile yan yana column ile alt alta dizdirebiliriz.*/
+        }
+        #logo{
+            text-align: center;
+            border: 2px solid silver;
+            font-size: 20px;
+            padding: 20px;
+        }
+        #alt-kutular{
+            width: 250px;
+            margin: 10px;
+            padding: 5px;
+            background-color: rgb(238, 18, 18);
+            border: 2px solid red !important;
+        }
+        a{
+            background-color: silver;
+            color: black;
+            padding: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <p id="logo">-- SİTE İSMİ --</p>
+    <nav>
+        <a href="/#/">SAYFA 1</a>
+        <a href="/#/">SAYFA 2</a>
+        <a href="/#/">SAYFA 3</a>
+    </nav>
+    <div id="flex-kutu">
+        <div class="alt-kutular">
+            <p>Hayatınızdaki her şeye müdahale edemezsiniz.Bir gün yaprağı uçuramayan rüzgar, hayatın perdesinin düşmesine neden olabilir. Ve yine 
+                perdeyi düşüren o rüzgar sizin pişmanlıklarınızı da alıp götürebilir.
+            </p>
+        </div>
+        <div class="alt-kutular">
+            <p>Acı olmadan öğrenilen ders anlamsızdır, bunun nedeni fedakarlık etmeden bir şey kazanamayacak olmandır. Ama acıya dayanıp üstesinden 
+                geldiğin an herşeyden çok daha güçlü bir kalbe sahip olursun. Evet, tamamen çelikten bir kalbe.
+            </p>
+        </div>
+        <div class="alt-kutular">
+            <p>...</p>
+        </div>
+    </div>
+</body>
+</html>
