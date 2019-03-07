@@ -54,3 +54,11 @@
  14. [İf-else if-else Kullanımı](js/if-else-elseif.html) =>Burada if , else if, else kullanımı gösterilmiştir.
  15. [Matematik fonksiyonları](js%5Cmatematik_islemleri.html) => Burada js 'deki bazı matematik fonksiyonları bahsedilmiştir.
  16. [New anahtar kelimesi ile object üretmek](js/newanahtarkelimesiileobjecturetmek.html)=> İsmindende anlaşılacağı üzere new anahtar kelimesi ile object üretiyoruz.
+ 17. [Obje-Metotlar](js/obje-metotlar.html) => Burada metot kullanımı yer alıyor..
+ 18. [Parametreli Fonksiyonlar](js%5Cparametreli_fonksiyonlar.html) => Burada parametre alarak kullanılan fonksiyonlara değindim..
+ 19. [Sınıflarda Prototip Genişletmesi](js%5Csiniflarda-prototip-genisletmesi.html) => Mesela yaş değerini gireceğiz ama herkes hızlı koşamaz bu yüzden bir prototype ile yaşı şu-şu arasındakiler hızlı diğerleri yavaş vb diyebiliyoruz.
+ 20. [Switch-case](js/switch-case.html) => Kullanımından bahsettik..
+ 21. [Tekrarlayan fonksiyon](js/tekrarlayan-fonksiyon.html) => Burada settimeout komutu ile 1 saniye değer vererek saati bize hh:mm:ss şeklinde bize 1 saniye aralıklarla tekrar fonksiyonu çalıştırarak getirmesini sağladık..
+ 22. [While Döngüsü](js/while.html) - [Do-While Döngüsü](js/do-while.html) => Burada range inputu ile bir uygulama üzerinden gittik.. While koşul sağlandıkça çalışır. Dowhile ise bir kere kesin çalışır sonra koşula bakar.
+ 23. [Yeni bir obje yapılandırmak](js%5CYenibirobjeyapilandirmak.html) => Obje yapılandırmayı gösterdim...
+ 
