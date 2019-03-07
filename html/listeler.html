@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <mark>Fieldset Kullanımı</mark><br>
+    <fieldset style="width:280px">
+        <legend>Şifreyi Giriniz</legend>
+        <b>Şifre</b><input type="text"/>
+        <button>Onayla</button>
+    </fieldset>
+    <br>
+    <mark>Otomatik doldurma listesi</mark><br>
+    <datalist id="renk-listesi">
+        <option value="Mavi"></option>
+        <option value="Mor"></option>
+        <option value="Yeşil"></option>
+        <option value="Kırmızı"></option>
+        <option value="Sarı"></option>
+    </datalist>
+    <input name="renkler-listesi" list="renk-listesi"/><br>
+    <mark>açılır liste</mark><br>
+    <select>
+        <option value="genc">18-35</option>
+        <option value="ortayas" selected>36-45</option>
+        <option value="ihtiyar">45-60</option>
+        <option value="yasli">60+</option>
+    </select><br>
+    <mark>Grup destekli açılır liste</mark><br>
+    <select>
+        <optgroup label="Meyveler">
+                <option value="elma">Elma</option>
+                <option value="armut">Armut</option>
+        </optgroup>
+        <optgroup label="Sebzeler">
+                <option value="patates">Patates</option>
+                <option value="lahana">Lahana</option>
+        </optgroup>
+    </select>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        function aktifYap(){
+            document.getElementById("butonum").disabled=false;
+        }
+        function pasifYap(){
+            document.getElementById("butonum").disabled=true;
+        }
+    </script>
+    
+</head>
+<body>
+    <button>TIKLA</button>
+    <input type="image" height="50px" width="50px" src="images.jpg"/><br><br>
+    <button id="butonum" ><mark>AKTİF / PASİF</mark></button>
+    <input type="button" id="btn_aktif_yapan" value="AKTİF YAP" onclick="aktifYap()"/>
+    <input type="button" id="btn_pasif_yapan" value="PASİF YAP" onclick="pasifYap()"/><br><br>
+</body>
+</html>

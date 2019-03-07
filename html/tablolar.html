@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #mevsimler-aylar{
+            border: 3px solid rgba(136, 218, 6, 0.884);
+            border-spacing: 10px; <!--açıklama satırı-->
+        }
+        tr,td{
+            border: 1px solid silver;
+        }
+        th{
+            background-color: red;
+            color: white;
+        }
+        td:nth-child(1){
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table id="mevsimler-aylar" cellspacing="5px">
+        <col style="width:25%">
+        <col style="width:25%">
+        <col style="width:45%">
+        <col style="width:25%">
+        <thead>
+            <th></th><th>1</th><th>2</th><th>3</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>kış</td><td colspan="2" rowspan="2">aralık</td><td>ocak</td><td>şubat</td>
+            </tr>
+            <tr>
+                <td>ilkbahar</td><td>mart</td><td>nisan</td><td>mayıs</td>
+            </tr>
+            <tr>
+                <td>yaz</td><td>haziran</td><td>temmuz</td><td>ağustos</td>
+            </tr>
+            <tr>
+                <td>sonbahar</td><td>eylül</td><td>ekim</td><td>kasım</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td><td colspan="3">Bu tabloyu hazırlayan Tolga KOCADAĞ'dır.</td>
+        </tfoot>
+    </table>
+</body>
+</html>

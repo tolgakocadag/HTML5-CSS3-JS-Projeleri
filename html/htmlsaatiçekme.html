@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function saatdakikayaz(){
+            var zaman=new Date();
+            var saat=zaman.getHours();
+            var dakika=zaman.getMinutes();
+            document.getElementById("_saat").innerHTML=saat;
+            document.getElementById("_dakika").innerHTML=dakika;
+        }
+    </script>
+</head>
+<body onload="saatdakikayaz();">
+    <div>
+        saat şu anda <time><b id="_saat"></b>:<b id="_dakika"></b></time>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function hesapla(){
+            var dolum=parseInt(document.getElementById("dolduran_musluk").value);
+            var bosaltim=parseInt(document.getElementById("bosaltan_musluk").value);
+            var sure=parseInt(document.getElementById("saat").value);
+            var sonuc;
+            sonuc=(dolum-bosaltim)*sure/10;
+            document.getElementById("metre").value=sonuc;
+        }
+    </script>
+</head>
+<body style="margin: 10px;">
+    Saatte <input type="text" style="width:40px;" id="dolduran_musluk"/> m<sup>3</sup> dolduruyor.<br>
+    Saatte <input type="text" style="width:40px;" id="bosaltan_musluk"/> m<sup>3</sup> boşaltıyor.<br><br>
+
+    Havuz 10m<sup>3</sup> ise...<br><br>
+    <input type="text" style="width:40px;" id="saat"/> saat sonra
+    <meter id="metre" ></meter> oranında dolu olur.<br><br>
+    <button onclick="hesapla();">Havuzun Doluluk Oranını Hesapla</button>
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <mark>URL girişi : </mark>
+        <input type="url" name="adres" pattern="https?://.+"/>
+        <input type="submit"/>
+    </form>
+    <form>
+        <mark>Tel girişi : </mark>
+        <input type="tel" name="telefon" placeholder="XXX XXX XX XX" pattern="^\d{3} \d{3} \d{2} \d{2}$"/>
+        <input type="submit"/>
+    </form>
+    <form>
+        <mark>şifre girişi : </mark>
+        <input type="password" name="sifre"/>
+        <input type="submit"/>
+    </form>
+    <mark>Sayı : </mark> <input type="number" min="0" max="5" value="0" style="widows: 50px;"/>
+    <form oninput="cikti.value=parseInt(deger.value)">
+        <mark>Sayı aralığı : </mark>
+        <input type="range" name="deger" value="0" min="0" max="50" />
+        <input type="output" name="cikti" value="0" style="width: 40px;" />
+    </form>
+    <form oninput="cikti.value=deger.value">
+    <mark>Renk : </mark>
+    <input type="color" name="deger" />
+    <input type="output" name="cikti" value=""/>
+    </form>
+    <form action="aramayap.php" method="GET">
+        <mark>Arama Search : </mark>
+        <input type="search" name="aranacak-kelime"/>
+        <input type="submit"/>
+    </form>
+    
+    <form>
+        <mark>e-mail : </mark>
+        <input type="email" />
+        <input type="submit"/>
+    </form>
+    <form>
+        <mark>tarih : </mark>
+        <input type="date"/>
+    </form>
+    <form>
+        <mark>ay : </mark>
+        <input type="month"/>
+    </form>
+    <form>
+        <mark>yılın kaçıncı haftası</mark>
+        <input type="week"/>
+    </form>
+    <form>
+        <mark>saat ve dakika</mark>
+        <input type="time" />
+    </form>
+    <form>
+        <mark>datetime- local</mark>
+        <input type="datetime-local" title="tarih seçiniz..."/>
+    </form>
+    <mark>submit:gönder</mark>
+    <input type="submit" /><br>
+    <mark>reset:sıfırla</mark>
+    <input type="reset"/><br>
+</body>
+</html>
