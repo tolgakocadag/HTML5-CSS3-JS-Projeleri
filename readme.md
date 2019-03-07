@@ -32,3 +32,20 @@
  3. [Efektler](css3/efektler) => Burada resime , yazıya gölge verme yazı fontu değiştirme gibi konuları bulunmaktadır.
  4. [Display ve visibility](css3/reklam_kapatma.html) => Burada ise display ve visibility nedir?  Arasındaki fark nedir ve display ile javascritte div kapatma ( genellikle site ortalarındaki reklamlar bu şekilde tasarlanır) kodları bulunmaktadır.
  5. [Sozde(pseudo) elementler ve sınıflar](css3/sozde_pseudo) ⇒ Buradaki css dosyasında açıklama olarak bulunmaktadırlar.
+ > Harici JS dosyasını projemize dahil etme;
+ >
+    <script type=text/javascript src="jsadresi.js"></script>
+
+**JS  öğrenirken oluşturduğum bazı projelerim;**
+
+ 1. [Diziler](js/diziler.html) => Js'te diziler ve üzerinde bir takım işlemler.
+ 2. [DOM-TAG-p](js/DOM-TAG-p.html) => Js ile butona tıklandığında tüm p etiketine sahip olanlara css işlemi yaptırtıyoruz.
+ 3. [DOM-CLASS-satir](DOM-CLASS-satir.html) => Js ile butona tıklandığında tüm "satir" isimli classa sahip olanlara css işlemi yaptırtıyoruz.
+ 4. [DOM-klavye-olay-yöneticileri](js/DOM-klavye-olay-yoneticileri.html) => Js ile metin kutusuna yazılan her karaktere rastgele bir font-size ve rastgele bir color verir. Boşluk tuşuna basınca bütün yazılan karakterleri siler.
+ 5. [DOM-mouse-olay-yöneticileri](js%5CDOM-mouse-olay-yoneticileri.html) => Js ile mousenin hareketlerine bağlı olarak paragraf metninin içeriğini değiştiriyor.
+ 6. [DOM-obje-olay-yöneticileri](js%5CDOM-obje-olay-yoneticileri.html) => Js ile resim veya video yüklenirken hata oluşmussa vericek uyarıyı, mouseyi sayfadan dışarı çıkardıysak vericek uyarıyı ve butonlara tıklandığında hash değiştirerek aynı sayfa içerisinde içerikleri değiştiren kodlar..
+ 7. [DOM-olay-yöneticileri](js%5CDOM-olay-yoneticileri.html) => Mouse hareketleri ile fonksiyonları çalıştırmak...
+ 8. [Elementlerin stilini okumak ve düzenlemek](js%5Celementlerin_stilini_okumak_ve_duzenlemek.html) => Js ile elementlerin stilini değişkene kaydedip bunu başka bir değişkenin stili olarak tanımlıyoruz.
+ 9. [Eşleştirme Oyunu](js/eslestirme-oyunu) => Js eventler ile hazırlanmış bir oyun...
+ 10. [For Döngüsü](js/fordongusu.html)  => For döngüsüyle 1-100 arası sayıları tablo halinde gösterdim...
+ 11. [For in Döngüsü](js/for_in.html) => For in ile bir obje değişkeninin içerisindekileri tek tek yazdırdık.

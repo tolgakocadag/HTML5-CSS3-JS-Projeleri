@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        var kisi={
+            isim:"",
+            soy_isim:"",
+            yas:"",
+            kendiniTanit:function(){
+                mesaj="Merhaba. Ben "+this.isim+" "+this.soy_isim+", yaşım "+this.yas+". Senin adın nedir?<br>";
+                document.write(mesaj);
+            },
+            karsilikVer:function(digerKisi){
+                mesaj="Memnun oldum. Ben de "+digerKisi+".";
+                document.write(mesaj);
+            }
+        }
+        kisi.isim="Tolga";
+        kisi.soy_isim="Kocadağ";
+        kisi.yas="22";
+        kisi.kendiniTanit();
+        kisi.karsilikVer("Bahar");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*
+        FOR(A;B;D){
+            C;
+        }
+        */
+       function TabloCiz(){
+           var tabloiceriği="<table >";
+            for(var i=1;i<=10;i++){
+                tabloiceriği+="<tr>";
+                    for(var j=1;j<=10;j++){
+                        tabloiceriği+="<td width:'25px' height='25px'>"+i*j+"</td>";
+                    }
+                    tabloiceriği+="</tr>";
+            }
+            tabloiceriği+="</table>";
+            document.write(tabloiceriği);
+       }
+       document.onReady=TabloCiz();
+    </script>
+    <style type="text/css">
+    td{
+        border: 2px solid black;
+        background-color: red;
+        color: yellow;
+        font-size: 20px;
+        padding: 10px;
+    }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

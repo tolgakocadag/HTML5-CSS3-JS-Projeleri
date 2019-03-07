@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        function satirclassicerigidegistir(){
+            var satirlar=document.getElementsByClassName("satir");
+            satirlar[0].innerHTML="<b>"+satirlar[0].innerHTML+"</b>";
+            satirlar[1].innerHTML="<u>"+satirlar[1].innerHTML+"</u>";
+        }
+    </script>
+</head>
+<body>
+    <div id="kutu">Test içeriği...
+        <h1>DOM</h1>
+        <p id="baslik">Şablonu Başlığı</p>
+        <p class="satir">Bu sayfa bir şablondur.</p>
+        <p class="satir">Bu da ikinci satır yazısıdır.</p>
+    </div>
+    <input type="button" onclick="satirclassicerigidegistir()" value="Yazıları değiştir"/>
+</body>
+</html>

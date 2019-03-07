@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        function satirTagicerigidegistir(){
+            var satirlar=document.getElementsByTagName("p");
+            for(sira in satirlar){
+                satirlar[sira].innerHTML="<b>"+satirlar[sira].innerHTML+"</b>"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="kutu">Test içeriği....
+        <h1>DOM</h1>
+        <p id="baslik">Şablon Başlığı</p>
+        <p id="satir">Bu sayfa bir şablondur.</p>
+        <p id="satir">Bu da ikinci satır yazısıdır.</p>
+    </div>
+    <input type="button" onclick="satirTagicerigidegistir()" value="Yazıları değiştir"/>
+</body>
+</html>

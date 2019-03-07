@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var isimler=[];/*dizi tanımlaması*/
+        isimler.push("Uğur");/*diziye eleman ekleme*/
+        document.write(isimler[0]+"<br>");
+        delete isimler[0];
+        document.write(isimler[0]+"<br>");
+        /*DİZİNİN İÇİNDEN ELEMANININ İÇERİĞİNİ SİLMEK İLE ELEMANI ÇIKARMAK AYNI ŞEY DEĞİLDİR.BUNU UNUTMAYALIM...*/
+        isimler=["a","b","c","d","e","f"];
+        document.write(isimler+"<br>");
+        /*a,b,c,d,e,f*/
+        isimler.splice(0,3,"x","y","z");
+        document.write(isimler+"<br>");
+        //x,y,z,d,e,f  0.eleman a , 3 eleman sonrasıda a,b,c dir . bunlarada x,y,z değerleri atanıyor
+        document.write(isimler.length+"<br>");
+        //6
+        isimler.splice(1,4);
+        document.write(isimler+"<br>");
+        //x,f   1.eleman y ve bundan 4 eleman sonrasıda y,z,d,e'dir. Bunlar silindi.
+        document.write(isimler.length+"<br>");
+        //2    4 tane elemana değer atanmadığı için silindi. ve x,f şeklinde 2 eleman kaldı.
+        var sayilar=["1","2","3","4","5"];
+        document.write(sayilar[0]+"<br>");// ilk elemanı yazdırma
+        document.write(sayilar[sayilar.length-1]+"<br>"); // son elemanı yazdırma
+        sayilar.pop();//dizinin son elemanını siler.
+        document.write(sayilar+"<br>");//1,2,3,4
+        sayilar.shift();//dizinin ilk elemanını siler.
+        document.write(sayilar+"<br>");//2,3,4
+        //SIRASI BİLİNEN DİZİ ELEMANININ DEĞERİNNİ DEĞİŞTİRMEK
+        var rakam=["1","2","3","4","5"];
+        var metin=["bir","iki","üç","dört","beş"];
+        document.write(rakam+"<br>");//1,2,3,4,5
+        for(i=0;i<5;i++){
+            rakam[i]=metin[i];
+        }
+        document.write(rakam+"<br>");//bir,iki,üç,dört,beş
+        //DİZİYİ TERS ÇEVİRMEK
+        rakam.reverse();
+        document.write(rakam+"<br>");//beş,dört,üç,iki,bir
+        //iki diziyi birleştirmek
+        var renkler_1=["kırmızı","yeşil"];
+        var renkler_2=["yeşil","mavi"];
+        var renkler_hepsi=renkler_1.concat(renkler_2);
+        document.write(renkler_hepsi+"<br>");
+        //DİZİNİN EN BÜYÜK VE EN KÜÇÜK ELEMANINI BULMAK, BÜYÜKTEN KÜÇÜĞE VE KÜÇÜKTEN BÜÜĞE SIRALAMAK
+        var degerler=[1,3,10,2,5,5];
+        degerler.sort(function(x,y){
+            return x-y;
+        }
+        )
+        document.write(degerler[0]+"<br>");//1 ==>en küçük alma işlemi
+        document.write(degerler+"<br>");//1,2,3,5,5,10 ve küçükten büyüğe sıralandı.
+        degerler.sort(function(x,y){
+            return y-x;
+        }
+        )
+        document.write(degerler[0]+"<br>");//10 ==>en büyük alma işlemi ve büyükten küçüğe sıralandı...
+        //DİZİ İÇERİSİNDE ARAMA YAPMAK
+        var nameler=["uğur","bahar","songül"];
+        document.write(nameler.indexOf("uğur"));//uuğru bulursa index numarasını bulamazsa -1 verir.
+    </script>
+</head>
+<body>
+
+</body>
+</html>

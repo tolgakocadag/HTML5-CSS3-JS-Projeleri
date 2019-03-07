@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        function videoyuklemeHatasi(){
+            document.getElementById("ekran").innerHTML="Video yüklenirken bir hata oldu.";
+            //onabort="fonksiyon" -- bir elemente ait kaynak dosyası silindiğinde, açılmadığında tetiklenir. genellikle videolar için
+            //onerror=resimi bulamazsa. ...
+        }
+        Window.onbeforeunload=function(e){
+            return "Sayfadan ayrılmak istediğinize emin misiniz?";
+        }
+        function resimyuklemeHatasi(){
+            //buraya yazılır onerror
+        }
+        function hashdegistirHakkimda(){
+            location.hash="hakkimda";
+        }
+        function hashdegistirıLEtısım(){
+            location.hash="iletisim";
+        }
+        function hashDegisti(){
+            var hashDegeri=location.hash;
+            document.getElementById("hash").innerHTML="Yeni hash değeri:"+hashDegeri;
+        }
+    </script>
+</head>
+<body onhashchange="hashDegisti()">
+    <video id="ekran" width="320" height="240" onabort="videoyuklemeHatasi()" controls>
+        <source src="video.MP4" type="video/mp4">
+    </video>
+    <a href="https://www.google.com.tr">SAYFAYA GİT</a>
+    <img id="ekran" src="images.jpg" width="320px" height="240px" onerror="resimyuklemeHatasi()"/>
+    <br><br><hr>
+    <button onclick="hashdegistirHakkimda()">HAKKIMDA</button>
+    <button onclick="hashdegistirıLEtısım()">İLETİŞİM</button>
+    <p id="hash"></p>
+</body>
+</html>

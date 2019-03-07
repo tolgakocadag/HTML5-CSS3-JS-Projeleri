@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        /*if(KOŞUL){
+            KODLAR1;
+        }
+        ELSE{
+            KODLAR2;
+        }*/
+        function karsilastir(){
+            if(document.getElementById("a").value==""){
+                document.getElementById("a").value="0";
+            }
+            if(document.getElementById("b").value==""){
+                document.getElementById("b").value="0";
+            }
+            if(document.getElementById("c").value==""){
+                document.getElementById("c").value="0";
+            }
+            var a=document.getElementById("a").value;
+            var b=document.getElementById("b").value;
+            var c=document.getElementById("c").value;
+            var sonuc="";
+            if(a==b){
+                sonuc+="a ve b eşit.<br>";
+            }
+            else{
+                sonuc+="a ve b eşit değil.<br>";
+            }
+            if(b>=c){
+                sonuc+="b değeri c değerinden büyük veya eşit.<br>";
+            }
+            else{
+                sonuc+="b değeri c değerinden küçük.<br>";
+            }
+            if(b>c&&c>a){
+                sonuc+="b değeri c değerinden büyük ve c değeri a değerinden büyük.<br>";
+            }
+            else if(b>c&&c==a){
+                sonuc+="b değeri c değerinden büyük ve c değeri a değerine eşit.<br>";
+            }
+            else{
+                sonuc+="b değeri c değerinden büyük değil ve c değeri a değerine eşit değil.<br>";
+            }
+            document.getElementById("sonuc").innerHTML=sonuc;
+
+        }
+    </script>
+</head>
+<body>
+    <form>
+        a: <input type="text" id="a" style="width:30px"/>
+        b: <input type="text" id="b" style="width:30px"/>
+        c: <input type="text" id="c" style="width:30px"/>
+        <input type="button" onclick="karsilastir()" value="KARŞILAŞTIR"/>
+    </form>
+    <div id="sonuc"></div>
+</body>
+</html>

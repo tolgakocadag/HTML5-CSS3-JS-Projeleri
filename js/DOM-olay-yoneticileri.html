@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        window.onload=yapilandir;
+        function yapilandir(){
+            document.getElementById("buton1").onmouseover=function(){//mouse ile üzerine gelindiğinde çalışır
+                alert("Fonksiyon çalıştı");
+            }
+            document.getElementById("buton2").addEventListener("click",fonksiyon2);
+            function fonksiyon2(){
+                alert("Fonksiyon 2 çalıştı");
+            }
+            function fonksiyon3(){
+                alert("Fonksiyon 3 çalıştı");
+            }
+            document.addEventListener("mouseout",sayfadanAyrildi);
+            function sayfadanAyrildi(){
+                alert("Mouse sayfadan ayrıldı");
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" id="buton1" value="Fonksiyon 1'i çalıştır"/>
+    <input type="button" id="buton2" value="Fonksiyon 2'i çalıştır"/>
+    <input type="button" onclick="fonksiyon3()" value="Fonksiyon 3'ü çalıştır"/>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        window.onload=yapilandir;
+        function yapilandir(){
+            //metin kutusunda klavyeye basıldığında
+            metinKutusu.addEventListener("keydown",tusaBasildi);
+            //pencerede tuşa basılıp bırakıldığında
+            window.addEventListener("keyup",temizle);
+        }
+        function tusaBasildi(){
+            var rastgeleBuyukluk=Math.round(Math.random()*50)+10;
+            var renkler=["red","green","blue"];
+            var rastgeleRenk=renkler[Math.round(Math.random()*3)-1];
+            document.getElementById("harfler").innerHTML+="<font style='font-size:"+rastgeleBuyukluk+"px;color:"+rastgeleRenk+"'>"
+                +document.getElementById("metinKutusu").value+"</font>";
+            document.getElementById("metinKutusu").value="";
+        }
+        function temizle(e){
+            if(e.keyCode==32){//space tuşuna karşılık gelmektedir.
+                e.preventDefault();
+                document.getElementById("harfler").innerHTML="";
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="metinKutusu" style="width:15px"/>
+    <div id="harfler"></div>
+</body>
+</html>

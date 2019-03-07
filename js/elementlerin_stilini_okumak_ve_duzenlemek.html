@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+    window.onload=yapilandir;
+    function yapilandir(){
+        var satir1stilrenk=document.getElementById("1").style.color;
+        document.getElementById("2").style.color=satir1stilrenk;
+        var satir1stilbuyukluk=document.getElementById("1").style.fontSize;
+        document.getElementById("2").style.fontSize=satir1stilbuyukluk;
+        document.getElementById("1").removeAttribute("style");// attribute özellik silme
+        
+    }
+    </script>
+</head>
+<body>
+    <h2>Orijinal</h2>
+    <p id="1" style="color:red; font-size:xx-large">Satır 1</p>
+    <h2>Yansıma</h2>
+    <p id="2">Satır 2</p>
+</body>
+</html>
