@@ -1,7 +1,7 @@
 # HTML5 - CSS3 - JAVASCRIPT ÖĞRENİYORUM
 **Başlıktanda anlaşılacağı üzere html5- css3 - js öğrenme aşamasında oluşturduğum projeler bulunmaktadır.**
 
-**HTML5  öğrenirken oluşturduğum projelerim;**
+**HTML5  öğrenirken oluşturduğum bazı projelerim;**
 
  1. [butonlar.html](html/butonlar.html) => Buton nasıl oluşturulur, resimden buton nasıl olur ve bir adet butonun aktif/pasif özelliğini 2 adet buton ve javascript yardımı  ile kontrol edilişi yer almaktadır.
  2. [div_kullanimi.html](html/div_kullanimi.html) => HTML5 dilinde div kutu modellerinin oluşturuluşu yer almaktadır.
@@ -21,7 +21,14 @@
  16. [yazi_turleri.html](html/yazi_turlari.html) => Burada HTML 5 'te yazı tipleri vb. gösterilmiştir.
  17. [yazi_turleri2.html](html/yazi_turleri2.html) => Burada HTML5 'te yazı tipleri vb. gösterilmiştir.
 
-**CSS3  öğrenirken oluşturduğum projelerim;**
- 1. [Akıllı Seçiciler](css3/akilliseciciler) => Burada bir elemente ,  id ' ye , class'a değer verirken o elementin mesela id' si "asd" ile başlayanlara bu stili uygula gibi akıllı seçicilere yer verilmiştir.
 
- 
+> Harici CSS dosyasını projemize dahil etme;
+
+    <link rel="stylesheet" type="text/css" href="cssismi.css">
+
+ **CSS3  öğrenirken oluşturduğum bazı projelerim;**
+ 1. [Akıllı Seçiciler](css3/akilliseciciler) => Burada bir elemente ,  id ' ye , class'a değer verirken o elementin mesela id' si "asd" ile başlayanlara bu stili uygula gibi akıllı seçicilere yer verilmiştir.
+ 2. [Flex Kutular](css3/flexkutular.html) => Flex kutuların kullanımı gösterilmektedir.
+ 3. [Efektler](css3/efektler) => Burada resime , yazıya gölge verme yazı fontu değiştirme gibi konuları bulunmaktadır.
+ 4. [Display ve visibility](css3/reklam_kapatma.html) => Burada ise display ve visibility nedir?  Arasındaki fark nedir ve display ile javascritte div kapatma ( genellikle site ortalarındaki reklamlar bu şekilde tasarlanır) kodları bulunmaktadır.
+ 5. [Sozde(pseudo) elementler ve sınıflar](css3/sozde_pseudo) ⇒ Buradaki css dosyasında açıklama olarak bulunmaktadırlar.
